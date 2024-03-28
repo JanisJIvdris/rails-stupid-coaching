@@ -1,0 +1,17 @@
+<div class="text-center" mt-5>
+  <h1>Stupid Coaching</h1>
+  <div>
+    <p class="mb-3">
+    <%= @question %>
+    </p>
+  </div>
+  <div>
+    <p class="mb-3">
+    <em>- <%= @answer %></em>
+    </p>
+  </div>
+
+<div>
+    <%= link_to "Want to give another shot?", ask_path, class: "btn btn-warning m-3" %>
+  </div>
+</div>
